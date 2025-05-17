@@ -1,4 +1,4 @@
-collections:
+pages:
   - name: "home"
     label: "Home Page"
     folder: "src/content/home"
