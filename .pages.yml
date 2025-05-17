@@ -5,8 +5,30 @@ collections:
     format: "markdown"
     fields:
       - name: "title"
-        label: "Page Title"
+        label: "Título Principal"
         widget: "string"
+
       - name: "description"
-        label: "Meta Description"
+        label: "Descripción"
         widget: "text"
+
+      - name: "show_hero"
+        label: "Mostrar sección principal"
+        widget: "boolean"
+
+      - name: "hero_image"
+        label: "Imagen de portada"
+        widget: "image"
+
+      - name: "cta_label"
+        label: "Texto del botón"
+        widget: "string"
+
+      - name: "cta_link"
+        label: "Enlace del botón"
+        widget: "string"
+
+      - name: "theme"
+        label: "Tema de color"
+        widget: "select"
+        options: ["claro", "oscuro", "pastel"]
