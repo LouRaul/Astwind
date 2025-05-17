@@ -1,12 +1,13 @@
 content:
   - name: "home"
     label: "Home Page"
-    folder: "src/content/home"
+    type: "collection"
+    path: "src/content/index"
     format: "markdown"
     fields:
       - name: "title"
         label: "Título Principal"
-        widget: "string"
+        type: "string"
       - name: "description"
         label: "Descripción"
-        widget: "text"
+        type: "text"
