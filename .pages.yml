@@ -4,7 +4,7 @@ media:
     input: src/files/documents
     output: src/files/documents
     categories: [ document ]
-  - label: images
+  - name: images
     label: Images
     input: src/files/images
     output: src/files/images
