@@ -2,12 +2,12 @@ media:
   - name: files
     label: Files
     input: src/files/documents
-    output: src//files/documents
+    output: src/files/documents
     categories: [ document ]
   - label: images
     label: Images
-    input: src/images
-    output: src/images
+    input: src/files/images
+    output: src/files/images
     extensions: [ png, webp ]
 content:
   - name: "home"
