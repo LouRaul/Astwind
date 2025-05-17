@@ -1,13 +1,13 @@
 media:
   - name: files
     label: Files
-    input: src/files/documents
-    output: src/files/documents
+    input: files/documents
+    output: /files/documents
     categories: [ document ]
-  - name: images
+  - label: images
     label: Images
-    input: src/files/images
-    output: src/files/images
+    input: images
+    output: /images
     extensions: [ png, webp ]
 content:
   - name: "home"
