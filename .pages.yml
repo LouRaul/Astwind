@@ -2,7 +2,7 @@ content:
   - name: "home"
     label: "Home Page"
     type: "collection"
-    path: "src/content/home/index"
+    path: "src/content/home"
     format: "markdown"
     fields:
       - name: "title"
