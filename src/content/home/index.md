@@ -1,6 +1,6 @@
 ---
-title: "Bienvenidos a nuestra página"
-description: "Ofrecemos soluciones simples y efectivas para tu negocio."
+title: "Bienvenidos a nuestra página nueva"
+description: "Ofrecemos soluciones simples y atractivas para tu negocio."
 show_hero: true
 hero_image: "/images/portada.jpg"
 cta_label: "Contáctanos"

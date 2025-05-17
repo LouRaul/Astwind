@@ -1,8 +1,20 @@
+media:
+  - name: files
+    label: Files
+    input: src/files/documents
+    output: src//files/documents
+    categories: [ document ]
+  - label: images
+    label: Images
+    input: src/images
+    output: src/images
+    extensions: [ png, webp ]
 content:
   - name: "home"
     label: "Home Page"
     type: "collection"
     path: "src/content/home"
+    filename: "index.md"
     format: "markdown"
     fields:
       - name: "title"
